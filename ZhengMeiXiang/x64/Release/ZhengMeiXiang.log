@@ -1,0 +1,42 @@
+﻿Build started 2012/12/22 下午 01:30:04.
+     1>Project "C:\Users\r2034kimo\Desktop\zhengmeixiang_API\ZhengMeiXiang\ZhengMeiXiang.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\ZhengMeiXiang.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D OSC_HOST_LITTLE_ENDIAN /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Director.cpp InitState.cpp InteractiveState.cpp LayoutState.cpp MirrorState.cpp main.cpp
+         Director.cpp
+         InitState.cpp
+         InteractiveState.cpp
+         LayoutState.cpp
+         MirrorState.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\r2034kimo\Desktop\zhengmeixiang_API\x64\Release\ZhengMeiXiang.exe" /NOLOGO FlyCapture2_C.lib opencv_core231.lib opencv_imgproc231.lib opencv_highgui231.lib ws2_32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\ZhengMeiXiang.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\r2034kimo\Desktop\zhengmeixiang_API\x64\Release\ZhengMeiXiang.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\r2034kimo\Desktop\zhengmeixiang_API\x64\Release\ZhengMeiXiang.lib" /MACHINE:X64 x64\Release\Director.obj
+         x64\Release\InteractiveState.obj
+         x64\Release\FlipAnimation.obj
+         x64\Release\InitState.obj
+         x64\Release\LayoutState.obj
+         x64\Release\main.obj
+         x64\Release\MirrorState.obj
+         x64\Release\OSCListener.obj
+         x64\Release\IpEndpointName.obj
+         x64\Release\NetworkingUtils.obj
+         x64\Release\UdpSocket.obj
+         x64\Release\OscOutboundPacketStream.obj
+         x64\Release\OscPrintReceivedElements.obj
+         x64\Release\OscReceivedElements.obj
+         x64\Release\OscTypes.obj
+         x64\Release\Picture.obj
+         Generating code
+         Finished generating code
+         ZhengMeiXiang.vcxproj -> C:\Users\r2034kimo\Desktop\zhengmeixiang_API\x64\Release\ZhengMeiXiang.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\r2034kimo\Desktop\zhengmeixiang_API\x64\Release\ZhengMeiXiang.exe;#1" /manifest x64\Release\ZhengMeiXiang.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ZhengMeiXiang.unsuccessfulbuild".
+         Touching "x64\Release\ZhengMeiXiang.lastbuildstate".
+     1>Done Building Project "C:\Users\r2034kimo\Desktop\zhengmeixiang_API\ZhengMeiXiang\ZhengMeiXiang.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.36
